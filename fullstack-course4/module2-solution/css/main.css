@@ -36,7 +36,7 @@ html {
   background-color: blue;
 }
 
-div {
+div.region {
     border: 10px solid white;
     position: relative;
     background-color: gray;
