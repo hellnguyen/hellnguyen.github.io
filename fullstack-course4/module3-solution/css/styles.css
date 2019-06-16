@@ -1,0 +1,59 @@
+.navbar {
+  background-color: silver;
+}
+
+.navbar span {
+  font-size: 1.6em;
+}
+
+#menu-items {
+  padding: 0px;
+}
+
+#menu-chicken > h4, #menu-beef > h4, #menu-sushi > h4 {
+  font-weight: bold;
+}
+
+#menu-items > ul {
+  margin: 0px;
+}
+
+#menu > div {
+  color: white;
+  border: solid 10px white;
+}
+#menu > div[info="chicken"] {
+  background-color: red;
+}
+
+#menu > div[info="beef"] {
+  background-color: blue;
+}
+
+#menu > div[info="sushi"] {
+  background-color: green;
+}
+
+#menu-items li {
+  background-color: antiquewhite;
+  border: solid 1px black;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+/*FOR RESPONSIVE*/
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+}
